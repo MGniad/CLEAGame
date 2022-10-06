@@ -9,7 +9,7 @@ class Sprite{
         this.shadow = new Image();
         this.useShadow = true
         if(this.useShadow){
-            this.shadow.src = "/images/characters/shadow.png"
+            this.shadow.src = "./images/characters/shadow.png"
         }
         this.shadow.onload = () => {
             this.isShadowLoaded = true
@@ -67,7 +67,7 @@ class Sprite{
     get frame(){
         return this.animations[this.currentAnimation][this.currentAnimationFrame]
     }
-    
+
     setAnimation(key){
         if(this.currentAnimation != key){
             this.currentAnimation = key
