@@ -67,7 +67,7 @@ class Sprite{
     get frame(){
         return this.animations[this.currentAnimation][this.currentAnimationFrame]
     }
-
+    
     setAnimation(key){
         if(this.currentAnimation != key){
             this.currentAnimation = key
