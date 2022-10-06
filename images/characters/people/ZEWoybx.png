@@ -1,0 +1,61 @@
+<!doctype html>
+<!--[if lte IE 9]>
+<html lang="en" class="oldie">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="aVSu3MOPfvWFObPQunQk92Lu4cPDMtKtfPN9eUsAWcWbb5zitHQ1zeesgA+409xUBeVNvwPE1uS2ZJJsaBZS8Q==" />
+
+<title>CodePen - Sprite Sheet animation demo</title>
+<link rel="stylesheet" media="screen" href="https://cpwebassets.codepen.io/assets/fullpage/fullpage-96f5da14bc71e5883d519b4eb5e93297dde552c2f91a97fcfb30035219cf1c1a.css" />
+<link rel="stylesheet" media="all" href="https://cpwebassets.codepen.io/assets/global/global-9d7f9c08fe7a3a0af430544c497310e89c5caead2ce71cf977cdb1d90f9efeba.css" />
+<link rel="stylesheet" media="screen" href="https://cpwebassets.codepen.io/assets/packs/css/everypage-ea60c670.css" />
+<link rel="stylesheet" media="all" href="https://cpwebassets.codepen.io/assets/page/page-ae458df5882eba980fa4b025c90906942433c238167d86f941cc1313b68aaa41.css" />
+<link rel="stylesheet" media="all" href="https://cpwebassets.codepen.io/assets/editor/editor-743b14e25a2f350dc8981fba1410eb2d93f9fec0b6cf2553835feeb8a48d2386.css" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@CodePen">
+<meta name="twitter:title" content="Sprite Sheet animation demo">
+<meta name="twitter:description" content="This is the code from a tutorial video! Sprite sheet animations in HTML and CSS:  https://www.youtube.com/watch?v=ekI7vjkFrGA...">
+<meta name="twitter:image" content="https://shots.codepen.io/AngelaVelasquez/pen/ZEWoybx-800.jpg?version=1599853623">
+<meta property="og:image" content="https://shots.codepen.io/AngelaVelasquez/pen/ZEWoybx-800.jpg?version=1599853623" itemprop="thumbnailUrl">
+<meta property="og:title" content="Sprite Sheet animation demo">
+<meta property="og:url" content="https://codepen.io/AngelaVelasquez/details/ZEWoybx">
+<meta property="og:site_name" content="CodePen">
+<meta property="og:description" content="This is the code from a tutorial video! Sprite sheet animations in HTML and CSS:  https://www.youtube.com/watch?v=ekI7vjkFrGA...">
+<link rel="alternate" type="application/json+oembed" href="https://codepen.io/api/oembed?url=https%3A%2F%2Fcodepen.io%2FAngelaVelasquez%2Fpen%2FZEWoybx&format=json" title="Sprite Sheet animation demo" />
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<script nonce="o1It+zRnTk4=">
+  /* Firefox needs this to prevent FOUT */
+</script>
+</head>
+<body class="fullpage logged-out sidebar-false">
+<header id="main-header" class="main-header"></header>
+<div class="oldie-header">
+<a href="https://codepen.io/AngelaVelasquez/pen/ZEWoybx">Edit Pen</a>
+</div>
+<div id="result-iframe-wrap" role="main">
+<iframe id="result" src="https://cdpn.io/AngelaVelasquez/fullpage/ZEWoybx" sandbox="allow-forms allow-modals allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-downloads allow-presentation" allow="accelerometer; camera; encrypted-media; display-capture; geolocation; gyroscope; microphone; midi; clipboard-read; clipboard-write; web-share" allowTransparency="true" allowpaymentrequest="true" allowfullscreen="true" class="result-iframe" loading="lazy"></iframe>
+</div>
+<div id="full-view-ad"></div>
+<textarea id="init-data" style="display:none">{&quot;__browser&quot;:{&quot;device&quot;:&quot;unknown_device&quot;,&quot;mobile&quot;:false,&quot;name&quot;:&quot;chrome&quot;,&quot;platform&quot;:&quot;pc&quot;,&quot;version&quot;:&quot;106&quot;},&quot;__constants&quot;:{},&quot;__CPDATA&quot;:{&quot;domain_iframe&quot;:&quot;https://cdpn.io&quot;,&quot;environment&quot;:&quot;production&quot;,&quot;host&quot;:&quot;codepen.io&quot;,&quot;iframe_allow&quot;:&quot;accelerometer; camera; encrypted-media; display-capture; geolocation; gyroscope; microphone; midi; clipboard-read; clipboard-write; web-share&quot;,&quot;iframe_sandbox&quot;:&quot;allow-forms allow-modals allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-downloads allow-presentation&quot;},&quot;__graphql&quot;:{&quot;data&quot;:{&quot;data&quot;:{&quot;sessionUser&quot;:{&quot;id&quot;:&quot;VoDkNZ&quot;,&quot;name&quot;:&quot;Captain Anonymous&quot;,&quot;title&quot;:&quot;Captain Anonymous&quot;,&quot;avatar&quot;:&quot;https://assets.codepen.io/t-1/user-default-avatar.jpg?format=auto&amp;version=0&quot;,&quot;currentContext&quot;:{&quot;id&quot;:&quot;VoDkNZ&quot;,&quot;title&quot;:&quot;Captain Anonymous&quot;,&quot;name&quot;:&quot;Captain Anonymous&quot;,&quot;avatar&quot;:&quot;https://assets.codepen.io/t-1/user-default-avatar.jpg?format=auto&amp;version=0&quot;,&quot;username&quot;:&quot;anon&quot;,&quot;__typename&quot;:&quot;User&quot;},&quot;currentTeamId&quot;:null,&quot;username&quot;:&quot;anon&quot;,&quot;admin&quot;:false,&quot;anon&quot;:true,&quot;pro&quot;:false,&quot;verified&quot;:false,&quot;teams&quot;:[],&quot;__typename&quot;:&quot;User&quot;}}},&quot;url&quot;:&quot;https://codepen.io/graphql&quot;,&quot;api&quot;:&quot;cprails&quot;,&quot;cpedata&quot;:{&quot;action&quot;:&quot;show_secure_full_page&quot;,&quot;controller&quot;:&quot;fullpage&quot;}},&quot;__user&quot;:{&quot;anon&quot;:true,&quot;base_url&quot;:&quot;/anon/&quot;,&quot;current_team_id&quot;:0,&quot;current_team_hashid&quot;:null,&quot;hashid&quot;:&quot;VoDkNZ&quot;,&quot;id&quot;:1,&quot;itemType&quot;:&quot;user&quot;,&quot;name&quot;:&quot;Captain Anonymous&quot;,&quot;paid&quot;:false,&quot;tier&quot;:0,&quot;username&quot;:&quot;anon&quot;,&quot;created_at&quot;:null,&quot;email_verified&quot;:null,&quot;collections_count&quot;:0,&quot;collections_private_count&quot;:0,&quot;followers_count&quot;:0,&quot;followings_count&quot;:0,&quot;pens_count&quot;:0,&quot;pens_private_count&quot;:0,&quot;projects_count&quot;:0,&quot;projects_private_count&quot;:0},&quot;__firebase&quot;:{&quot;config&quot;:{&quot;apiKey&quot;:&quot;AIzaSyBgLAe7N_MdFpuVofMkcQLGwwhUu5tuxls&quot;,&quot;authDomain&quot;:&quot;codepen-store-production.firebaseapp.com&quot;,&quot;databaseURL&quot;:&quot;https://codepen-store-production.firebaseio.com&quot;,&quot;disabled&quot;:false,&quot;projectId&quot;:&quot;codepen-store-production&quot;},&quot;token&quot;:&quot;eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImNsYWltcyI6eyJvd25lcklkIjoiVm9Ea05aIiwiYWRtaW4iOmZhbHNlfSwiZXhwIjoxNjY1MDc3MTIwLCJpYXQiOjE2NjUwNzM1MjAsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLThva3lsQGNvZGVwZW4tc3RvcmUtcHJvZHVjdGlvbi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLThva3lsQGNvZGVwZW4tc3RvcmUtcHJvZHVjdGlvbi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInVpZCI6IlZvRGtOWiJ9.xvU4TURboONMTAuSczCQWamfbmMSQdAwIcVM4zd9Y2_cfinV_jvsUSilcz4lz6TjHbPT0tJfgcVpkvoQqGK0gaY47HP0rUBY_-HutXrHS-CyCgzmtq-OZV6Np9ZY48UxC5f1H-TlhB-4gNpgTFUJcTWuhGWJYP9mVk-WKeeuNuVz2DZL-pq4UUdKkzVmFoIYpZ3f38bw8DcPMicuy7bMLx3sVcv9QU3y1DSb6sq7iciMEpvsqqUWf1T1bpD9mdo98x4Bh9N4PZ_-qVhPz4uDMrZPI3m2RDj4YqH1i2-3IBJsZoddM2BNyUbZE822tk3fBDYZXAh1LjEDZ8nFMHnwIw&quot;},&quot;__pay_stripe_public_key&quot;:&quot;pk_live_2GndomDfiklqpSNQn8FrGuwZSMIMzha7DkLJqlYe7IR0ihKAlKdiHg68JJc5eVPt68rzAjzAAVXcUwjySHRCsgjQQ00gtRBUFNH&quot;,&quot;__pay_braintree_env&quot;:&quot;production&quot;,&quot;__item&quot;:&quot;{\&quot;id\&quot;:46983967,\&quot;hashid\&quot;:\&quot;ZEWoybx\&quot;,\&quot;itemType\&quot;:\&quot;pen\&quot;,\&quot;user_id\&quot;:71737,\&quot;slug_hash\&quot;:\&quot;ZEWoybx\&quot;,\&quot;private\&quot;:false,\&quot;slug_hash_private\&quot;:\&quot;d6e333f04187c0ce0e0b7bfdac3839d7\&quot;}&quot;,&quot;__profiled&quot;:{&quot;base_url&quot;:&quot;/AngelaVelasquez&quot;,&quot;hashid&quot;:&quot;MAvXww&quot;,&quot;id&quot;:71737,&quot;name&quot;:&quot;Angela Velasquez&quot;,&quot;type&quot;:&quot;user&quot;,&quot;username&quot;:&quot;AngelaVelasquez&quot;},&quot;__pageType&quot;:&quot;full&quot;}</textarea>
+<div id="popup-overlay" class="overlay popup-overlay"></div>
+<div id="modal-overlay" class="overlay modal-overlay"></div>
+<script src="https://cpwebassets.codepen.io/assets/common/everypage-f84dd91ff413b23b8d1a6f7eadc615dc53c384f74f8254e068449db735b2c8cd.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/common/analytics_and_notifications-dabea89133f3a919e973a927aebbc27318967ac159bc8c7b657d656880822e14.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/packs/js/vendor-74691f59ae1c5a76f5b6.chunk.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/packs/js/1-526d916eb842e5037848.chunk.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/packs/js/referrer-tracking-9706fe1d20d67a7bfdb2.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/packs/js/vendor-74691f59ae1c5a76f5b6.chunk.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/packs/js/1-526d916eb842e5037848.chunk.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/packs/js/everypage-32acb5aec9bf78f8ec2a.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/full/full_page_renderer-8edf9934af5f33c7e00fe30580012df4d2ab48aad3bcc7f581030e5b876bff3b.js"></script>
+</body>
+</html>
