@@ -8,6 +8,12 @@ class GameObject{
             src: config.src ||  "./images/characters/people/DemoRpgCharacter.png",
         });
     }
+
+    mount(map){
+        this.isMounted = true
+        map.addWall(this.x, this.y)
+    }
+
     update(){
 
     }
